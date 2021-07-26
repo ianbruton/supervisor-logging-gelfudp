@@ -17,6 +17,8 @@
 # Forked from https://github.com/infoxchange/supervisor-logging and modified to log to graylog by Peter Froehlich
 # Then...
 # Forked from https://github.com/peterfroehlich/supervisor-logging-gelf and further modified by PerformLine
+# Then...
+# Forked from https://github.com/PerformLine/supervisor-logging-gelf and further modified by Ian Bruton
 
 """
 Send received events to graylog over GELF/UDP.
