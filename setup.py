@@ -35,7 +35,7 @@ try:
         author_email='nathan@performline.com',
         url='https://github.com/ianbruton/supervisor-logging-gelfudp',
         license='Apache 2.0',
-        long_description=open('README_OLD.rst').read(),
+        # long_description=open('README_OLD.rst').read(),
 
         packages=find_packages(exclude=['tests']),
         package_data={
