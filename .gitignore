@@ -1,3 +1,14 @@
+# from supervisor-logging-gelf repo
+__pycache__
+*.pyc
+/*.egg
+/.coverage
+/build
+/dist
+/*.egg-info
+/htmlcov
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
