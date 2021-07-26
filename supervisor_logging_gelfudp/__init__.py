@@ -14,11 +14,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-# Forked from https://github.com/infoxchange/supervisor-logging and modified to log to graylog by Peter Froehlich
+# Forked from https://github.com/infoxchange/supervisor-logging and modified
+# to log to graylog by Peter Froehlich
 # Then...
-# Forked from https://github.com/peterfroehlich/supervisor-logging-gelf and further modified by PerformLine
+# Forked from https://github.com/peterfroehlich/supervisor-logging-gelf and
+# further modified by PerformLine
 # Then...
-# Forked from https://github.com/PerformLine/supervisor-logging-gelf and further modified by Ian Bruton
+# Forked from https://github.com/PerformLine/supervisor-logging-gelf and
+# further modified by Ian Bruton
 
 """
 Send received events to graylog over GELF/UDP.
@@ -35,6 +38,7 @@ import re
 import graypy
 
 level_match_expr = "^.*?: ([A-Z]+)\/.*?\] (.*)$"
+
 
 def get_headers(line):
     """
@@ -91,12 +95,10 @@ def split_msg_and_get_log_level(event_data, level_match):
     except:
         level = logging.INFO
 
-
     try:
         body = match_obj.group(2)
     except:
         body = event_data
-
 
     return level, body
 

@@ -29,7 +29,7 @@ try:
     test_requirements = open('test_requirements.txt')
     setup(
         name='supervisor-logging-gelfudp',
-        version='0.0.1',
+        version='0.0.3',
         description='Stream supervisord logs to a Graylog instance, now with GELFUDP!',
         author='PerformLine Engineering',
         author_email='nathan@performline.com',
