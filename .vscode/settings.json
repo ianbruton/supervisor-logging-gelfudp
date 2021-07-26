@@ -1,4 +1,5 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.pythonPath": "/Users/ianbruton/.virtualenvs/supervisor-logging-gelfudp/bin/python"
+    "python.pythonPath": "/Users/ianbruton/.virtualenvs/supervisor-logging-gelfudp/bin/python",
+    "restructuredtext.confPath": ""
 }
