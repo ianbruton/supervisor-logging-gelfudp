@@ -52,7 +52,7 @@ try:
             },
         entry_points={
             'console_scripts': [
-                'supervisor_logging_gelfudp = supervisor_logging_gelfupd:main',
+                'supervisor_logging_gelfudp = supervisor_logging_gelfudp:main',
                 ],
             },
 
